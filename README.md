@@ -8,6 +8,7 @@ To check component run `npm start`
 - Data option selection (mock data of valid / invalid formats). Select desired option to see dropdown result.
 - Selected data preview in raw format.
 - Dropdown component which renders validated and formated data.
+- Multiple data selection can be removed by re-clicking selected option or by clicking on chip indropdown header. 
 
 ## Added / used
 - No third-party libraries used
