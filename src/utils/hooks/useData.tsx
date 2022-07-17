@@ -36,6 +36,8 @@ const useData = (data: any) => {
                     objFromStrings.itemArr.length && transformed.unshift(objFromStrings)
                     return setFormatedData(transformed)
                 }
+            } else {
+                setFormatedData([])
             }
         }
         validateData(data)
