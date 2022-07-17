@@ -3,18 +3,16 @@
 Create dropdown component from scratch using React and Typescript
 
 ## Requirements
-- No third-party libraries can be used
-- `<select>` attribute can not be used
-- Dropdown should support multiple selection
-- Dropdown should be easily reusable in many places
+- No third-party libraries used
+- `<select>` attribute not used
+- Dropdown supports multiple selection
+- Dropdown reusable in many places
 - onSelect callback implemented
-- No plain css. Instead, LESS/SASS/JSS/StyledComponents should be used
+- StyledComponents used
 
 ## Additional points
 - Dropdown options can be grouped
-- Callbacks onClose, onOpen and similar added
 - Custom hook for dropdown data validation added
-- Unit tests added
 - Storybook implemented
 
 ## Coding standards
@@ -26,7 +24,6 @@ Create dropdown component from scratch using React and Typescript
 ## Naming conventions
 - Component's names should be written using pascal case. i.e. `Dropdown.tsx`, `DropdownItem.tsx`
 - Non-components should be written using camel case. i.e. `myUtilityFile.ts`
-- Unit test file should use the same name as corresponding file. i.e. `Dropdown.test.ts`
 - Component story files should use the same name as its corresponding file. i.e. `Dropdown.stories.tsx`
 
 ## Project structure
