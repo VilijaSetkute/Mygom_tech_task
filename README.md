@@ -4,6 +4,11 @@ Create dropdown component from scratch using React and Typescript
 
 To check component run `npm start`
 
+### App consists:
+- Data option selection (mock data of valid / invalid formats). Select desired option to see dropdown result.
+- Selected data preview in prevalidated format.
+- Dropdown component which renders validated and formated data.
+
 ## Added / used
 - No third-party libraries used
 - `<select>` attribute not used
