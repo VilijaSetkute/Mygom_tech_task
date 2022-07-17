@@ -2,29 +2,25 @@
 
 Create dropdown component from scratch using React and Typescript
 
-## Requirements
+## Added / used
 - No third-party libraries used
 - `<select>` attribute not used
 - Dropdown supports multiple selection
 - Dropdown reusable in many places
 - onSelect callback implemented
 - StyledComponents used
-
-## Additional points
 - Dropdown options can be grouped
 - Custom hook for dropdown data validation added
-- Storybook implemented
 
 ## Coding standards
 - ES6
 - Typescript
-- Standard CRA Eslint rules must be followed
-- All components must be written as functional components instead of Class components
+- Standard CRA Eslint rules followed
+- All components written as functional components
 
 ## Naming conventions
 - Component's names should be written using pascal case. i.e. `Dropdown.tsx`, `DropdownItem.tsx`
 - Non-components should be written using camel case. i.e. `myUtilityFile.ts`
-- Component story files should use the same name as its corresponding file. i.e. `Dropdown.stories.tsx`
 
 ## Project structure
 - `/components` - catalog holds all React components that are used at least twice in the project.
