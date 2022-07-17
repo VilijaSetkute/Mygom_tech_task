@@ -1,6 +1,6 @@
 # Mygom.Tech qualification task:
 
-Create dropdown component from scratch using React and Typescript
+Dropdown component from scratch using React and Typescript
 
 To check component run `npm start`
 
