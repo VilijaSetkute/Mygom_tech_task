@@ -4,8 +4,6 @@ import DropdownItem from "./DropdownItem"
 import {
     StyledDropdownHeader, StyledDropdownList, StyledError, StyledChipWrapper, StyledChipItem, StyledChipText, FlexStyle, MarginStyle
 } from './dropdown.styled'
-// import useData from "../../utils/hooks/useData"
-// import dataOptions from '../../utils/dropdownData.json'
 import { useState } from "react"
 
 
@@ -18,7 +16,6 @@ export const Dropdown = ({data}: any) => {
 
     const [selectedItems, setSelectedItems] = useState([])
     const [showDropdownList, setDropdownList] = useState(false)
-    // const data = useData(dataOptions.ungroupedArray)
 
     const manageChip = (chipName: string) => {
         const filtered = selectedItems.filter((el: string) => el !== chipName)
