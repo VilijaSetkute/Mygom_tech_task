@@ -12,10 +12,9 @@ export interface ItemGroup {
     itemArr: string[],
 }
 
-export const Dropdown = ({data}: any) => {
+export const Dropdown = ({data, selectedItems, setSelectedItems}: any) => {
 
-    const [selectedItems, setSelectedItems] = useState([])
-    const [showDropdownList, setDropdownList] = useState(false)
+    const [showDropdownList, setDropdownList] = useState(true)
 
     const manageChip = (chipName: string) => {
         const filtered = selectedItems.filter((el: string) => el !== chipName)
