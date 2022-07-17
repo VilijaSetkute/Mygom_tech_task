@@ -1,7 +1,7 @@
 # Mygom.Tech qualification task:
 
 Create dropdown component from scratch using React and Typescript
-To check component run 
+To check component run `npm start`
 
 ## Added / used
 - No third-party libraries used
