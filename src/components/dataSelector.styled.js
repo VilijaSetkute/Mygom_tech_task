@@ -2,6 +2,20 @@ import styled from 'styled-components'
 
 export const StyledDataSelector = styled.div`
     display: flex;
+    max-height: 70vh;
+
+    ::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: darkgrey;
+        border-radius: 50px;
+    }
 
     & p {
         font-weight: bold;
@@ -40,8 +54,23 @@ export const StyledOption = styled.div`
 `
 
 export const StyledPreview = styled.div`
-    margin-top: 10px;
-    padding: 10px;
+    // margin-top: 10px;
+    padding: 0 10px;
     border: 1px solid lightgrey;
     min-width: 300px;
+    height: 500px;
+    overflow: auto;
+
+    ::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: darkgrey;
+        border-radius: 50px;
+    }
 `
