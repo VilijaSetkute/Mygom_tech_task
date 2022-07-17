@@ -1,16 +1,20 @@
-import React from "react"
+import React, { useState } from "react"
 import { Dropdown } from "./components/Dropdown/Dropdown";
+import DataSelector from "./components/DataSelector";
 import { StyledContainer } from "./App.styled";
 import useData from "./utils/hooks/useData";
 import dataOptions from './utils/dropdownData.json'
 
 const App = () => {
 
-  const data = useData(dataOptions.mixedArray)
+  const [dataOptionSelected, setDataOptionSelected] = useState(dataOptions.mixedArray)
+  const [selectedItems, setSelectedItems] = useState([])
+  const data = useData(dataOptionSelected)
 
   return (
     <StyledContainer>
-      <Dropdown data={data}/>
+      <DataSelector setDataOptionSelected={setDataOptionSelected} setSelectedItems={setSelectedItems} />
+      <Dropdown data={data} selectedItems={selectedItems} setSelectedItems={setSelectedItems}/>
     </StyledContainer>
   );
 }
