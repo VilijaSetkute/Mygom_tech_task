@@ -6,7 +6,7 @@ To check component run `npm start`
 
 ### App consists:
 - Data option selection (mock data of valid / invalid formats). Select desired option to see dropdown result.
-- Selected data preview in prevalidated format.
+- Selected data preview in raw format.
 - Dropdown component which renders validated and formated data.
 
 ## Added / used
