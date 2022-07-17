@@ -27,6 +27,16 @@
     "extends": [
       "react-app",
       "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
     ]
   },
   "browserslist": {
@@ -42,6 +52,9 @@
     ]
   },
   "devDependencies": {
-    "prettier": "^2.5.1"
+    "babel-plugin-named-exports-order": "^0.0.2",
+    "prettier": "^2.5.1",
+    "prop-types": "^15.8.1",
+    "webpack": "^5.73.0"
   }
 }
