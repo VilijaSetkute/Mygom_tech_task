@@ -1,0 +1,144 @@
+{
+    "primitiveString": "primitive string",
+    "primitiveNumber": 1,
+    "primitiveBoolean": true,
+    "primitiveNull": null,
+    "groupedArray": [
+        {
+            "label": "Frontend technologies",
+            "itemArr": [
+                "--- Prebuilt grouped object ---",
+                "JavaScript",
+                "React",
+                "Angular",
+                "Vue",
+                "Next",
+                "TypeScript",
+                "Gatsby",
+                "React Native",
+                "Flutter",
+                "Remix",
+                "GraphQL",
+                "PWA"
+            ]
+        },
+        {
+            "label": "Backend technologies",
+            "itemArr": [
+                "--- Prebuilt grouped object ---",
+                "Ruby on Rails",
+                "Laravel",
+                "CakePHP",
+                "Django",
+                "Spring Boot",
+                "Node.js",
+                "Nest.js",
+                "Express.js",
+                "Flask",
+                "Meteor"
+            ]
+        }
+    ],
+    "ungroupedArray": [
+        {
+            "label": null,
+            "itemArr": [
+                "--- Prebuilt ungrouped object ---",
+                "JavaScript",
+                "React",
+                "Angular",
+                "Vue",
+                "Next",
+                "TypeScript",
+                "Gatsby",
+                "React Native",
+                "Flutter",
+                "Remix",
+                "GraphQL",
+                "PWA"
+            ]
+        }
+    ],
+    "mixedArray": [
+        "JavaScript",
+        "React",
+        1,
+        "2",
+        true,
+        null,
+        {
+            "label": "Frontend technologies",
+            "itemArr": [
+                "Angular",
+                "Vue",
+                "Next",
+                "TypeScript",
+                "Gatsby",
+                "React Native",
+                "Flutter",
+                "Remix",
+                "GraphQL",
+                "PWA"
+            ]
+        },
+        {
+            "backend": [
+                "Ruby on Rails",
+                "Laravel",
+                "CakePHP",
+                "Django",
+                "Spring Boot",
+                "Node.js",
+                "Nest.js",
+                "Express.js",
+                "Flask",
+                "Meteor"
+            ]
+        }
+    ],
+    "stringArray": [
+        "--- Created from string array ---",
+        "JavaScript",
+        "React",
+        "Angular",
+        "Vue",
+        "Next",
+        "TypeScript",
+        "Gatsby",
+        "React Native",
+        "Flutter",
+        "Remix",
+        "GraphQL",
+        "PWA"
+    ],
+    "standardObject": {
+        "backend": [
+            "--- Created from object ---",
+            "Ruby on Rails",
+            "Laravel",
+            "CakePHP",
+            "Django",
+            "Spring Boot",
+            "Node.js",
+            "Nest.js",
+            "Express.js",
+            "Flask",
+            "Meteor"
+        ],
+        "frontend": [
+            "--- Created from object ---",
+            "JavaScript",
+            "React",
+            "Angular",
+            "Vue",
+            "Next",
+            "TypeScript",
+            "Gatsby",
+            "React Native",
+            "Flutter",
+            "Remix",
+            "GraphQL",
+            "PWA"
+        ]
+    }
+}
